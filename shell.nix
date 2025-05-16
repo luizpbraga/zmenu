@@ -14,6 +14,6 @@ pkgs.mkShell {
   shellHook = ''
     export PKG_CONFIG_PATH=${gtk.dev}/lib/pkgconfig
     zsh
-    echo "GTK 4 dev environment ready. LET'S GO!"
+    echo "GTK 4 dev environment ready."
   '';
 }
